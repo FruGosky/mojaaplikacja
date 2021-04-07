@@ -5,12 +5,10 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCheckboxModule} from '@angular/material/checkbox'; 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LudzieComponent } from './ludzie/ludzie.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LudzieComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
